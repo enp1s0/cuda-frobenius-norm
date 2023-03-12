@@ -1,6 +1,8 @@
 # CUDA Frobenius norm
 
 ## Usage
+
+### Source code
 - Store the result in device memory
 
 ```cpp
@@ -18,6 +20,10 @@ cunorm::norm(norm, m, n, mat_ptr, ld);
 
 const auto norm = cunorm::norm(m, n, mat_ptr, ld);
 ```
+
+
+### Compile
+Compile `src/cunorm.cu` and link the resulting object file.
 
 ## License
 
